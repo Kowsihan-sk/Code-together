@@ -4,7 +4,7 @@ const path = require("path");
 const http = require("http");
 const cors = require("cors");
 
-const ACTIONS = require("./src/Actions");
+const ACTIONS = require("./src/actions.js");
 
 const app = express();
 
